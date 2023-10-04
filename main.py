@@ -41,3 +41,4 @@ word = input("Enter a word: ").upper()
 phonetic_list = [nato_dict[letter] for letter in word if letter in nato_dict]
 
 print(phonetic_list)
+
